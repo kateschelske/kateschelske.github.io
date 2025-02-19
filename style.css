@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+h1 {
+    font-size: 40px;
+    font-family: trajan;
+    text-align: center;
+    color: deeppink;
+    background-color: white; 
+    border: 15px solid transparent;
+    border-image: url(images/Cheetah.jpg) 10 stretch;
+    padding-top: 10px;
+    }
