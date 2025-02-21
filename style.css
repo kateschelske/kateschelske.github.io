@@ -16,6 +16,15 @@ h1 {
   text-align: right;
   float: right;
     }
+
+    .navbar {
+      padding: 20px; /* Increase padding for a taller navbar */
+      font-size: 1.5rem; /* Increase text size */
+    }
+    .navbar-nav .nav-link {
+      padding: 10px 20px; /* Add spacing to links */
+    }
+    
     a:link {
       background-color: yellow;
     }
