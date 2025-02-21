@@ -16,13 +16,18 @@ h1 {
   text-align: right;
   float: right;
     }
-  
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-div:hover {
-  background-color: cadetblue;
-
-}
+    a:link {
+      background-color: yellow;
+    }
+    
+    a:visited {
+      background-color: cyan;
+    }
+    
+    a:hover {
+      background-color: lightgreen;
+    }
+    
+    a:active {
+      background-color: hotpink;
+    } 
