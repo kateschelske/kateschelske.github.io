@@ -1,7 +1,10 @@
 /* General Body */
 body {
   padding: 20px;
-  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
 /* Heading 1 (Name) */
