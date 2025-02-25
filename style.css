@@ -51,7 +51,7 @@ h2 {
 /* index intro Container */
 .intro-container {
   max-width: 1000px;
-  margin: 10px;
+  margin-left: 20px;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
