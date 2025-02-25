@@ -1,7 +1,7 @@
 /* General Body */
 body {
   padding: 20px;
-  font-family: 'courier-new';
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
 }
 
 /* Heading 1 (Name) */
@@ -18,7 +18,7 @@ h1 {
 
 /* Heading 2 (Section Titles) */
 h2 {
-  font-family: "Noto Color Emoji", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -41,15 +41,17 @@ h2 {
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Resume Container */
+/* index intro Container */
 .intro-container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
 /* Section Styling */
