@@ -3,7 +3,7 @@ body {
   padding: 20px;
   font-family: "Manrope", serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -12,7 +12,7 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 200px;
+  font-size: clamp(50px, 10vw, 200px);
   margin-top: auto;
   width: 100%;
   text-align: left;
