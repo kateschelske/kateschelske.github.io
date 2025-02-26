@@ -57,6 +57,10 @@ h2 {
   border-radius: 10px;
   box-shadow: 2px 3px 10px rgba(0,0,0,0.1);
 }
+.p{
+  padding: 20px;
+}
+
 
 /* Section Styling */
 .section {
@@ -111,7 +115,6 @@ nav a:hover {
 /* Style for the active link (if you want to highlight the current page) */
 nav a.active {
   font-weight: bold;
-  color: #f39c12; /* Active link color */
 }
 
 /* Responsiveness (for smaller screens) */
