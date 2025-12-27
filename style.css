@@ -112,6 +112,8 @@ li {
   background-color: #ff85c0; /* light pink */
   padding: 0px;
   font-family: "Bebas Neue", sans-serif;
+  position: sticky;
+  top: 0;
 
 }
 
