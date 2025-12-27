@@ -1,6 +1,6 @@
 /* General Body */
 body {
-  padding: 20px;
+  padding: 0px;
   font-family: "Manrope", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -108,38 +108,39 @@ li {
   margin-bottom: 10px;
 }
 
-/* Navbar */
-.navbar {
-  margin-bottom: 20px;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
+.custom-navbar {
+  background-color: #ff85c0; /* light pink */
+  padding: 0px;
+  font-family: "Bebas Neue", sans-serif;
+
 }
 
-/* Style for navbar links */
-nav a {
-  color: white; /* Link color */
-  text-decoration: none; /* Remove underline */
-  font-size: 16px;
-  padding: 10px 20px;
-  display: block;
+.custom-navbar .navbar-brand {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #333;
+  letter-spacing: 1px;
 }
 
-/* Style for navbar links on hover */
-nav a:hover {
-  background-color: #ff78b7; /* Hover effect */
-  border-radius: 5px; /* Rounded corners */
+.custom-navbar.navbar-brand:hover { 
+    color: white;
+    text-decoration: underline;
+  }
+
+.custom-navbar .nav-link {
+  color: #333;
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-left: 40px;
 }
 
-/* Style for the active link (if you want to highlight the current page) */
-nav a.active {
-  font-weight: bold;
-  font-size: larger;
+.custom-navbar .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  
 }
+
+
 
 /* Responsiveness (for smaller screens) */
 @media (max-width: 768px) {
