@@ -128,7 +128,7 @@ li {
 
 .custom-navbar .navbar-brand {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 30px;
   color: #333;
   letter-spacing: 1px;
 }
@@ -141,13 +141,15 @@ li {
 .custom-navbar .nav-link {
   color: #333;
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 30px;
   margin-left: 40px;
 }
 
 .custom-navbar .nav-link:hover {
   color: white;
   text-decoration: underline;
+  font-size: 40px;
+
   
 }
 
