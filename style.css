@@ -168,7 +168,22 @@ li {
 
 
 
-/* Ensure body and html fill the screen */
+/* Make footer truly span the full width */
+.footer {
+  width: 100%;           /* full screen width */
+  margin: 0;             /* remove any spacing */
+  padding-left: 0;       /* override Bootstrap padding */
+  padding-right: 0;
+  flex-shrink: 0;        /* prevent shrinking in flex layout */
+}
+
+/* Optional: hover effect for icons */
+.footer a:hover {
+  color: #ff85c0;        /* matches your navbar pink */
+  transition: color 0.3s;
+}
+
+/* Sticky footer setup for the page */
 html, body {
   height: 100%;
   margin: 0;
@@ -176,7 +191,7 @@ html, body {
   flex-direction: column;
 }
 
-/* Make main content grow to fill space */
 main {
-  flex: 1;
+  flex: 1;               /* push footer down if content is short */
 }
+
